@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-6 part">
+                <div class="row">
+                    <div class="col-6 title">
+                        <h2>FROM CURRENCY</h2>
+                        <img id="fromFlag" src="https://flagsapi.com/US/flat/64.png">
+                    </div>
+                    <div class="col-6 title">
+                        <!-- <input type="text" value="100"></input>  -->
+                        <div class="dropdown from">
+                            <select name="from"></select>
+                        </div>
+                        <input type="text" value="100"></input>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 part">             
+                <div class="row">
+                    <div class="col-6 title">
+                        <h2>TO CURRENCY</h2>
+                        <img id="toFlag" src="https://flagsapi.com/IN/flat/64.png">
+                    </div>
+                    <div class="col-6 title">
+                        <div class="dropdown to">
+                            <select name="to"></select>
+                        </div>
+                        <h3 class="toValue"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 result">
+            <button>Convert</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <details class="details">
+                <h4>About Currency</h4>
+                <p>
+                A currency[a] is a standardization of money in any form, in use or circulation as a medium of exchange, for example banknotes and coins.[1][2] A more general definition is that a currency is a system of money in common use within a specific environment over time, especially for people in a nation state.[3] Under this definition, the British Pound sterling (£), euros (€), Japanese yen (¥), and U.S. dollars (US$) are examples of (government-issued) fiat currencies. Currencies may act as stores of value and be traded between nations in foreign exchange markets, which determine the relative values of the different currencies.[4] Currencies in this sense are either chosen by users or decreed by governments, and each type has limited boundaries of acceptance; i.e., legal tender laws may require a particular unit of account for payments to government agencies.
+                Other definitions of the term currency appear in the respective synonymous articles: banknote, coin, and money. This article uses the definition which focuses on the currency systems of countries.
+                One can classify currencies into three monetary systems: fiat money, commodity money, and representative money, depending on what guarantees a currency's value (the economy at large vs. the government's precious metal reserves). Some currencies function as legal tender in certain jurisdictions, or for specific purposes, such as payment to a government (taxes), or government agencies (fees, fines). Others simply get traded for their economic value.
+                The concept of a digital currency has arisen in recent years. Whether government-backed digital notes and coins (such as the digital renminbi in China, for example) will be successfully developed and implemented remains unknown.[5] Digital currencies that are not issued by a government monetary authority, such as cryptocurrencies like Bitcoin, are different because their value is market-dependent and has no safety net. Various countries have expressed concern about the opportunities that cryptocurrencies create for illegal activities such as scams, ransomware (extortion), money laundering and terrorism.[6] In 2014, the United States IRS advised that virtual currency is treated as property for federal income-tax purposes, and it provides examples of how long-standing tax principles applicable to transactions involving property apply to virtual currency.[7]
+                </p>
+            </details>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2021, All Rights Reserved
+    </footer>
+    <script src="code.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
